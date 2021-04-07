@@ -111,3 +111,8 @@ input, label {
 .item i {
   z-index: 2;
 }
+
+.navfont {
+  margin: 1rem;
+  font-size: 4vh;
+}
