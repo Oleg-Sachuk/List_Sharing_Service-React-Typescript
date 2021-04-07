@@ -3,15 +3,15 @@ import { Nav } from 'react-bootstrap';
 
 const Navbar: React.FC = () => {
     return (
-        <Nav className="justify-content-center" activeKey="/home">
+        <Nav className="justify-content-center navstyle" activeKey="/home">
             <Nav.Item>
-                <Nav.Link href="/">Create ToDo</Nav.Link>
+                <Nav.Link className="navfont" href="/">Create ToDo</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="/">List</Nav.Link>
+                <Nav.Link className="navfont" eventKey="/">List</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="/about">About</Nav.Link>
+                <Nav.Link className="navfont" eventKey="/about">About</Nav.Link>
             </Nav.Item>
         </Nav>
     )

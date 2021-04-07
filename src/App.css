@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: linear-gradient(30deg, rgb(233, 233, 233) 50%, rgba(223, 222, 222, 0.781) 50%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navstyle {
+  padding: 1rem;
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+}
+
+.navfont {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: white;
+}
+
+.mainTitle {
+  margin: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.mainTitle h1 {
+  font-weight: bolder;
+  font-size: 6vh;
+  color: #013A6B;
+}
+
+.inpForm input {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  width: 90%;
+  height: 6vh;
+  background: none;
+}
+
+.inpForm label {
+  margin-left: 4rem;
+  font-weight: bolder;
+}
+
+input, label {
+  display:block;
+}
