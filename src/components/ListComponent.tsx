@@ -10,6 +10,10 @@ type ToDoListProps = {
 }
 
 const List: React.FC<ToDoListProps> = ({ list, pressCheck, pressDel }) => {
+    if(list.length === 0) {
+        return <p style={{textAlign: 'center', marginTop: '1rem'}}>Your list is currently empty</p>
+    }
+
     return (
         <ul>
             {list.map(item => {
