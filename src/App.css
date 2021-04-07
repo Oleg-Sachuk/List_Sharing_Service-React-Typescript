@@ -85,3 +85,29 @@ body {
 input, label {
   display:block;
 }
+
+.item {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+  width: 90.5%;
+}
+
+.item.completed span {
+  text-decoration: line-through;
+}
+
+.item label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: white;
+}
+
+.item i {
+  z-index: 2;
+}
