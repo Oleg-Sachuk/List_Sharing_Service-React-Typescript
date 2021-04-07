@@ -18,6 +18,19 @@ const App: React.FC = () => {
     setList(prev => [newPosition, ...prev])
   }
 
+  const UnderlinePos = (id: number) => {
+    setList(prev => prev.map(item => {
+      if(item.id === id) {
+        item.completed = !item.completed
+      }
+      return item
+    }))
+  }
+
+  const RemovePos = (id: number) => {
+    setList(prev => prev.filter(item => item.id !== id))
+  }
+
   return (
     <>
       <Navbar />
@@ -28,7 +41,7 @@ const App: React.FC = () => {
         <ToDoForm onAdd={AddnewPos} />
       </div>
       <div>
-        <List list={list} />
+        <List list={list} pressCheck={UnderlinePos} pressDel={RemovePos} />
       </div>
     </>
   )
