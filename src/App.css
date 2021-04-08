@@ -135,6 +135,7 @@ body {
   font-weight: bold;
   background: #004E95;
   border: none;
+  margin-bottom: 1rem;
 }
 
 .checkInp label{
@@ -149,4 +150,26 @@ body {
 
 .checkInp input{
   vertical-align: middle
+}
+
+.shareList {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+}
+
+.footStyle {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  color: white;
+  background-image: -webkit-linear-gradient(150deg, #013A6B 50%, #004E95 50%);
+}
+
+.links {
+  text-align: right;
+  list-style-type: none;
+}
+
+.icons {
+  color: white;
 }

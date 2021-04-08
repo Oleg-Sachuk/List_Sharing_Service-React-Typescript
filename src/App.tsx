@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Main from './components/MainPage';
 import About from './components/AboutPage';
 import Share from './components/SharePage';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   
@@ -17,7 +18,7 @@ const App: React.FC = () => {
         <Route component={About} path="/about" exact />
         <Route component={Share} path="/share" exact />
       </Switch>
-      
+      <Footer />
     </BrowserRouter>
   )
 }

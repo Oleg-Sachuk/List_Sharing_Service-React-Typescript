@@ -45,7 +45,7 @@ const Share: React.FC = () => {
             <div className="mainTitle">
                 <h1>Share your ToDo list</h1>
             </div>
-            <div>
+            <div className="shareList">
                 <ul>
                     {list.map(item => {
                         return (
