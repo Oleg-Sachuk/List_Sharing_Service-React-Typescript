@@ -72,6 +72,7 @@ body {
 .inpForm input {
   margin-left: 4rem;
   margin-right: 4rem;
+  margin-bottom: 1rem;
   width: 90%;
   height: 6vh;
   background: none;
@@ -80,10 +81,6 @@ body {
 .inpForm label {
   margin-left: 4rem;
   font-weight: bolder;
-}
-
-input, label {
-  display:block;
 }
 
 .item {
@@ -115,4 +112,41 @@ input, label {
 .navfont {
   margin: 1rem;
   font-size: 4vh;
+}
+
+.inpBtn {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 20px;
+  height: 6vh;
+}
+
+.backBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backBtn button {
+  color: white;
+  font-size: 3vh;
+  font-weight: bold;
+  background: #004E95;
+  border: none;
+}
+
+.checkInp label{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.checkInp input{
+  vertical-align: middle
 }
