@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/List_Sharing_Service-React-Typescript/static/css/main.ee273425.chunk.css",
+    "main.js": "/List_Sharing_Service-React-Typescript/static/js/main.62c71409.chunk.js",
+    "main.js.map": "/List_Sharing_Service-React-Typescript/static/js/main.62c71409.chunk.js.map",
+    "runtime-main.js": "/List_Sharing_Service-React-Typescript/static/js/runtime-main.e88f329e.js",
+    "runtime-main.js.map": "/List_Sharing_Service-React-Typescript/static/js/runtime-main.e88f329e.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/List_Sharing_Service-React-Typescript/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.49a114e9.chunk.js": "/List_Sharing_Service-React-Typescript/static/js/2.49a114e9.chunk.js",
+    "static/js/2.49a114e9.chunk.js.map": "/List_Sharing_Service-React-Typescript/static/js/2.49a114e9.chunk.js.map",
+    "static/js/3.36431e28.chunk.js": "/List_Sharing_Service-React-Typescript/static/js/3.36431e28.chunk.js",
+    "static/js/3.36431e28.chunk.js.map": "/List_Sharing_Service-React-Typescript/static/js/3.36431e28.chunk.js.map",
+    "index.html": "/List_Sharing_Service-React-Typescript/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/List_Sharing_Service-React-Typescript/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ee273425.chunk.css.map": "/List_Sharing_Service-React-Typescript/static/css/main.ee273425.chunk.css.map",
+    "static/js/2.49a114e9.chunk.js.LICENSE.txt": "/List_Sharing_Service-React-Typescript/static/js/2.49a114e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e88f329e.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.49a114e9.chunk.js",
+    "static/css/main.ee273425.chunk.css",
+    "static/js/main.62c71409.chunk.js"
+  ]
+}
